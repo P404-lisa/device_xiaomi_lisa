@@ -988,30 +988,13 @@ vendor/firmware/vpu20_1v.mdt
 vendor/firmware/vpu20_1v_unsigned.mbn
 
 # Media
--vendor/etc/vintf/manifest/c2_manifest_vendor.xml
+-vendor/etc/vintf/manifest/c2_manifest_vendor.xml:odm/etc/vintf/manifest/c2_manifest_xiaomi.xml
 vendor/etc/media_codecs_performance_yupik_v1.xml
 vendor/etc/media_codecs_yupik_v1.xml
 vendor/etc/media_profiles_yupik_v1.xml
-vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
-vendor/etc/media/video_system_specs.json
-vendor/etc/media_lahaina/video_system_specs.json
-vendor/etc/media_shima_v1/video_system_specs.json
-vendor/etc/media_yupik_v1/video_system_specs.json
-vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
-vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy
-vendor/etc/video_system_specs.json
 vendor/lib/libC2D2.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libmmosal.so
-vendor/lib/libqc2vppfilter.so
-vendor/lib/libqcodec2_base.so
-vendor/lib/libqcodec2_basecodec.so
-vendor/lib/libqcodec2_core.so
-vendor/lib/libqcodec2_hooks.so
-vendor/lib/libqcodec2_platform.so
-vendor/lib/libqcodec2_utils.so
-vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libmmosal.so
