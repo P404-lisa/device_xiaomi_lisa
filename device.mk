@@ -352,7 +352,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libminijail \
     libavservices_minijail \
-    libavservices_minijail.vendor \
     libcodec2_hidl@1.1.vendor \
     libavservices_minijail_vendor \
     libcodec2_soft_common.vendor \
@@ -421,6 +420,7 @@ PRODUCT_COPY_FILES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
     perf
 
 # Recovery
