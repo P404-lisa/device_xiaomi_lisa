@@ -2,15 +2,8 @@
 persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.btstack.enable.lpa=true
 
-# DPM
-persist.vendor.dpm.feature=11
-
 # Media
 vendor.media.target_variant=_yupik_v1
-
-# Telephony
-ro.telephony.sim_slots.count=2
-telephony.active_modems.max_count=2
 
 # WFD
 persist.debug.wfd.enable=1
