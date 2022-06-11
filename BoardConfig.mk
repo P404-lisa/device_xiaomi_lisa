@@ -176,9 +176,6 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 
-# Platform
-TARGET_BOARD_PLATFORM := lahaina
-
 # Power
 TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
 
@@ -189,10 +186,6 @@ TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 
-# QCOM
-BOARD_USES_QCOM_HARDWARE := true
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
@@ -202,9 +195,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-
-# Security patch level
-VENDOR_SECURITY_PATCH := 2022-01-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
