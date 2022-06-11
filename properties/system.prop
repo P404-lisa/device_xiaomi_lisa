@@ -40,9 +40,6 @@ ro.nfc.port=I2C
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7325
 
-# QC framework value-adds
-ro.vendor.qti.va_aosp.support=1
-
 # Qcom
 ro.vendor.qti.sys.fw.bservice_enable=true
 
