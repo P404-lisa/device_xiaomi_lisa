@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/lisa/device.mk)
 $(call inherit-product, vendor/404/configs/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Include GAPPS
+WITH_GAPPS := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
