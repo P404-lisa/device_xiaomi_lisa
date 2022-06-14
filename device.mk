@@ -213,6 +213,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.sensors_fix.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.sensors_fix.sh \
     $(LOCAL_PATH)/rootdir/bin/vendor_modprobe.sh:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_modprobe.sh
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+     IFAAService
+
 # IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
