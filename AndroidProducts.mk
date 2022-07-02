@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lisa.mk
+    $(LOCAL_DIR)/p404_lisa.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lisa-user \
-    aosp_lisa-userdebug \
-    aosp_lisa-eng
+    p404_lisa-user \
+    p404_lisa-userdebug \
+    p404_lisa-eng
