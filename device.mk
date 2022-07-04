@@ -377,7 +377,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     display \
     media \
     perf \
-    telephony
+    telephony \
+    vibrator
 
 # Recovery
 PRODUCT_COPY_FILES += \
@@ -438,11 +439,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml
 
 # Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.lisa
-
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    $(LOCAL_PATH)/configs/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # VNDK
 # vndservicemanager has been removed from API30 devices (aosp/1235751)
