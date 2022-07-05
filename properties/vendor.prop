@@ -161,11 +161,6 @@ debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
 ro.config.vc_call_vol_steps=11
 
-# NFC
-ro.boot.product.hardware.sku=nfc
-ro.vendor.nfc.repair=1
-ro.vendor.se.type=eSE,HCE,UICC
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=0

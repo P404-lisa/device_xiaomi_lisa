@@ -33,9 +33,6 @@ media.stagefright.enable-scan=true
 persist.mm.enable.prefetch=true
 vendor.mm.enable.qcom_parser=16777215
 
-# NFC
-ro.nfc.port=I2C
-
 # SoC
 ro.soc.manufacturer=QTI
 ro.soc.model=SM7325
