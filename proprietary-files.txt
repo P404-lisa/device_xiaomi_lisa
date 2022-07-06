@@ -1368,7 +1368,6 @@ vendor/etc/wifi/aoa_cldb_falcon.bin
 vendor/etc/wifi/aoa_cldb_swl14.bin
 
 # WiFi Display - LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
--system/framework/WfdCommon.jar|9f431b56d7f38c71089333008695dd5f717e5034
 system_ext/bin/wfdservice64|dfba81ff32b92652dfca237b590dd104dc7ced34
 system_ext/etc/init/wfdservice.rc|907def8565d8f91f531ca7dfad880af05d540b0c
 system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml|828999946f9dfef98f17f42a1c8daba47c2c442d
@@ -1394,7 +1393,6 @@ system_ext/lib64/libwfduibcsink.so|ba8d0e93566359220c801166e098077db2bc7530
 system_ext/lib64/libwfduibcsrcinterface.so|aef1b83ef458c79cd345031654d38bc8897c94ae
 system_ext/lib64/libwfduibcsrc.so|03e2b139fb399aa5beb1caaa4df0f5c7eb675a9d
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|b987719b34b788eee534c70c404ed2fd90bd6b81
--system_ext/priv-app/WfdService/WfdService.apk|622836ab49bc66bf31b83d4855198f87115dc106
 vendor/bin/wfdvndservice|eb9e344996851e1e9e8ce5a4d791ad66bb59b4f3
 vendor/bin/wifidisplayhalservice|4b599b02c113834ed92a504d722379f0aaaf4e88
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|576ce4393b7746b77a230745aa9e9ee3bd31b17d
@@ -1406,6 +1404,7 @@ vendor/etc/wfdconfig.xml|9e13371f7ae509cc0bbb3f2ace93c5ea5d87bf0f
 vendor/lib/libFileMux_proprietary.so|24dea3df1d31cc4b8d4eb6d5f360678483169408
 vendor/lib/libmmrtpdecoder_proprietary.so|44b637049eb3c42aa6a07869c9ae266357ab4fd5
 vendor/lib/libmmrtpencoder_proprietary.so|e2986ab6a8d6d1e96df4dbda9dd420c13c0b0a68
+vendor/lib/libwfdaac_vendor.so|68c129546ef9f0090cdabda26345a915d656878e
 vendor/lib/libwfdcodecv4l2_proprietary.so|79925fd5d7489aa3fae17aa4d9463fb112a69f43
 vendor/lib/libwfdcommonutils_proprietary.so|d3cc4f9298b7c9a79f34858b1a064d8a50e3d04f
 vendor/lib/libwfdconfigutils_proprietary.so|863f7f1aaee69bbbcf2d48f923ee3a885fc753c8
