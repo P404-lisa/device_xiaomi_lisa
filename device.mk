@@ -320,6 +320,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     gps \
     media \
     nq-nfc \
+    overlay \
     perf \
     telephony \
     usb \
@@ -337,9 +338,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     android.hardware.secure_element@1.2.vendor
-
-PRODUCT_PACKAGES += \
-    CarrierConfigOverlay
 
 # Sensors
 PRODUCT_PACKAGES += \
