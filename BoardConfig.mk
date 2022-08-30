@@ -61,9 +61,6 @@ SOONG_CONFIG_NAMESPACES += dolby_vision
 SOONG_CONFIG_dolby_vision += enabled
 SOONG_CONFIG_dolby_vision_enabled := true
 
-# Filesystem
-TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
-
 # HIDL
 DEVICE_MATRIX_FILE := device/qcom/common/compatibility_matrix.xml
 
